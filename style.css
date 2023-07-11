@@ -28,12 +28,13 @@ body {
     color:hotpink;
 }
 
-.header nav {
+/* .header nav {
     /* padding-top: 0px;
     margin-right: 0px;
-    float: right; */
-
+    float: right; 
 }
+*/
+
 
 .header nav ul {
     /* gets rid of bullet points */
@@ -43,8 +44,73 @@ body {
 
 .header nav ul li {
     /* makes list items be next to each other */
-    display: inline-flex;
+    display: inline;
     margin-left: 40px;
     text-align: right;
     
+}
+
+@media screen and (max-width:399px) { 
+    .backgroundImage {
+     height: 600px;
+     width:auto;
+     background-image: url(/Images/comp_sci.webp);
+     background-size: cover;
+     background-position: center;
+    }
+} 
+
+ @media screen and (min-width:400px) {
+    .backgroundImage {
+     height: 600px;
+     width: auto;
+     background-image: url(/Images/comp_sci_bigger.jpg);
+     background-size:cover;
+     background-position: center;
+    }
+} 
+
+
+.main {
+    box-sizing: border-box;
+    height: 100%;
+    width: 78%;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.main article {
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+.main article ul {
+    list-style-type: none;
+}
+
+.main article ul li {
+    /* makes list items be next to each other */
+    display: inline;
+    padding: 30px;
+    
+}
+
+.sideHeaders {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hotpink;
+    font-size: x-large;
+
+}
+
+.sideHeaders section {
+    margin: 5px;
+    padding: 30px;
 }
