@@ -1,0 +1,12 @@
+/* resets the box size of any element */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gives the body element a parent height to compare against */
+
+html {
+    height: 100%
+}
