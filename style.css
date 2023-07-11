@@ -5,14 +5,46 @@
 }
 
 body {
-    background-color:cornsilk;
+    background-color:lavenderblush;
 }
 
 .header {
+    /* aligns the nav and header so that they are next to each other and have space between them */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* makes the background box a little thicker */
     padding: 30px;
-    text-align: center;
+
     font-size: x-large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:lightskyblue;
-    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;
+    color:white;
+}
+
+.header h1 .bernabel {
+    /* makes my last name a different color than my first name. */
+    color:hotpink;
+}
+
+.header nav {
+    /* padding-top: 0px;
+    margin-right: 0px;
+    float: right; */
+
+}
+
+.header nav ul {
+    /* gets rid of bullet points */
+    list-style-type: none;
+    
+}
+
+.header nav ul li {
+    /* makes list items be next to each other */
+    display: inline-flex;
+    margin-left: 40px;
+    text-align: right;
+    
 }
