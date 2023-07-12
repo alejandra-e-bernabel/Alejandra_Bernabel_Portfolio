@@ -25,6 +25,11 @@ body {
     color:white;
 }
 
+a {
+    text-decoration: none;
+  
+}
+
 .header h1 .bernabel {
     /* makes my last name a different color than my first name. */
     color:hotpink;
@@ -124,13 +129,16 @@ body {
     list-style-type: none;
     width: 75%;
     padding: 5%;
+    font-size: large;
 
 }
 
 .main article ul li {
     /* makes list items be next to each other */
     display: inline-flex;
-    padding: 10px;
+    padding-top: 30px;
+    padding-right:10%;
+    
     
 }
 /* 
@@ -165,11 +173,10 @@ body {
 }
 
 .imageContainer h2 {
-    background-color: black;
+    background-color: hotpink;
     position: absolute;
-    top: 80%;
-    left: 60%;
-
+    top: 85%;
+    left: 75%;
 }
 
 .imageContainer img {
@@ -194,8 +201,8 @@ body {
 
  
 .smallerImageContainer  h2 {
-    background-color: black;
+    background-color: hotpink;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 30%;
 } 
