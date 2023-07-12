@@ -27,7 +27,7 @@ body {
 
 a {
     text-decoration: none;
-  
+    color: white;
 }
 
 .header h1 .bernabel {
@@ -57,15 +57,9 @@ a {
     
 }
 
-@media screen and (max-width:399px) { 
-    .backgroundImage {
-     height: 600px;
-     width:auto;
-     background-image: url(/Images/183277941_4078727712184963_5549505821854141151_n.jpg);
-     background-size: cover;
-     background-position: center;
-    }
-} 
+/* @media screen and (max-width:399px) { 
+   
+}  */
 
  @media screen and (min-width:400px) {
     .backgroundContainer {
@@ -87,17 +81,27 @@ a {
 
     .myImage {
         position: absolute;
-        top: 85%;
+        top: 80%;
         left:90%;
         transform: translate(-50%, -50%);
-        width: 20%;
-        height:30%;
+        width: 200px;
+        height:200px;
         background-image: url(/Images/183277941_4078727712184963_5549505821854141151_n.jpg);
         background-size: cover;
         z-index: 2;
     }
 
 } 
+
+@media screen and (max-width:499px) {
+    .backgroundImage {
+        height: 600px;
+        width:auto;
+        background-image: url(/Images/183277941_4078727712184963_5549505821854141151_n.jpg);
+        background-size: cover;
+        background-position: center;
+       }
+}
 
 
 .main {
