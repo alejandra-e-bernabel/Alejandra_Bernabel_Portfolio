@@ -61,19 +61,40 @@ a {
     .backgroundImage {
      height: 600px;
      width:auto;
-     background-image: url(/Images/comp_sci.webp);
+     background-image: url(/Images/183277941_4078727712184963_5549505821854141151_n.jpg);
      background-size: cover;
      background-position: center;
     }
 } 
 
  @media screen and (min-width:400px) {
+    .backgroundContainer {
+        position: relative;
+    }
+
+    /* background image needs fixing -- my own face keeps getting cut off when screen is smaller */
+
+
     .backgroundImage {
+     /* position:absolute; */
      height: 600px;
      width: auto;
      background-image: url(/Images/comp_sci_bigger.jpg);
      background-size:cover;
      background-position: center;
+     z-index: 1;
+    }
+
+    .myImage {
+        position: absolute;
+        top: 85%;
+        left:90%;
+        transform: translate(-50%, -50%);
+        width: 20%;
+        height:30%;
+        background-image: url(/Images/183277941_4078727712184963_5549505821854141151_n.jpg);
+        background-size: cover;
+        z-index: 2;
     }
 
 } 
