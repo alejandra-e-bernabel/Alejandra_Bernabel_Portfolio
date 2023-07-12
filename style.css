@@ -77,7 +77,7 @@ body {
 .main {
     box-sizing: border-box;
     height: 100%;
-    width: 70%;
+    width: 100%;
     display: inline-block;
     padding-top: 20px;
 
@@ -85,9 +85,29 @@ body {
 }
 
 .main article {
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 20px;
+}
+
+.sectionContainer {
+    display: flex;
+    background-color: black;
+    padding:5%;
+}
+
+.sectionContainer h1 {
+    width: 15%;
+    margin: 2%;
+    border-right: 5px solid hotpink;
+    text-align: center;
+    
+    
+    
+}
+
+.sectionContainer p {
+    width: 75%;
 }
 
 .main article ul {
@@ -100,7 +120,7 @@ body {
     padding: 30px;
     
 }
-
+/* 
 .sideHeaders {
     box-sizing: border-box;
     width: 20%;
@@ -118,13 +138,13 @@ body {
     margin: 5px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
+} */
 
-.websiteBody {
+/* .websiteBody {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 .imageContainer {
     position: relative;
