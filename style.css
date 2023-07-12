@@ -6,6 +6,8 @@
 
 body {
     background-color:lavenderblush;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 .header {
@@ -68,20 +70,22 @@ body {
      background-size:cover;
      background-position: center;
     }
+
 } 
 
 
 .main {
     box-sizing: border-box;
     height: 100%;
-    width: 78%;
+    width: 70%;
     display: inline-block;
     padding-top: 20px;
+
+    
 }
 
 .main article {
     background-color: black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     padding: 20px;
 }
@@ -98,19 +102,45 @@ body {
 }
 
 .sideHeaders {
+    box-sizing: border-box;
+    width: 20%;
+    height: 100%;
+    background-color: hotpink;
+    font-size: x-large;
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: left;
-    width: 20%;
-    height: 100%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: hotpink;
-    font-size: x-large;
 
 }
 
 .sideHeaders section {
     margin: 5px;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.websiteBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.imageContainer h2 {
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+
+}
+
+.imageContainer img {
+     height: 100%;
+     width: 100%;
+     padding: 5%
 }
