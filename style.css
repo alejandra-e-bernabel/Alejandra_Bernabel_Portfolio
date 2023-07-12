@@ -79,7 +79,6 @@ body {
     height: 100%;
     width: 100%;
     display: inline-block;
-    padding-top: 20px;
 
     
 }
@@ -87,13 +86,24 @@ body {
 .main article {
     /* background-color: black; */
     color: white;
-    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 .sectionContainer {
     display: flex;
     background-color: black;
-    padding:5%;
+    padding:20%;
+    background-clip: content-box;
+    
+}
+
+.sectionContainerWork {
+    display:flexblock;
+    /* background-color: aquamarine; */
+    border: 100px;
 }
 
 .sectionContainer h1 {
@@ -101,23 +111,26 @@ body {
     margin: 2%;
     border-right: 5px solid hotpink;
     text-align: center;
-    
-    
-    
+    padding: 5%
+
 }
 
 .sectionContainer p {
     width: 75%;
+    padding: 5%;
 }
 
 .main article ul {
     list-style-type: none;
+    width: 75%;
+    padding: 5%;
+
 }
 
 .main article ul li {
     /* makes list items be next to each other */
-    display: inline;
-    padding: 30px;
+    display: inline-flex;
+    padding: 10px;
     
 }
 /* 
@@ -162,5 +175,27 @@ body {
 .imageContainer img {
      height: 100%;
      width: 100%;
-     padding: 5%
+     padding: 5%;
 }
+
+.smallerImageContainer {
+    display: flex;
+    position: relative;
+}
+
+.smallerImageContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* float:left; */
+    justify-content: space-between;
+    /* padding: 5%; */
+}
+
+ 
+.smallerImageContainer  h2 {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} 
