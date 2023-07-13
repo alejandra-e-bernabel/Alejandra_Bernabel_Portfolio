@@ -55,12 +55,7 @@ a {
     
 }
 
-/* @media screen and (max-width:399px) { 
-   
-}  */
-
- @media screen and (min-width:400px) {
-    .backgroundContainer {
+.backgroundContainer {
         position: relative;
     }
 
@@ -68,7 +63,7 @@ a {
      /* position:absolute; */
      height: 600px;
      width: auto;
-     background-image: url(./Images/backgroundImage.jpg);
+     background-image: url(./Images/comp_sci_bigger\ \(1\).jpg);
      background-size:cover;
      background-position: center;
      z-index: 1;
@@ -85,10 +80,9 @@ a {
         background-size: cover;
         z-index: 2;
     }
-
-} 
-
-@media screen and (max-width:499px) {
+ 
+/* 
+@media screen and (max-width:399px) {
     .backgroundImage {
         height: 600px;
         width:auto;
@@ -96,7 +90,7 @@ a {
         background-size: cover;
         background-position: center;
        }
-}
+} */
 
 
 .main {
@@ -121,6 +115,8 @@ a {
     display: flex;
     background-color: black;
     padding:20%;
+
+    /* Adds the pink background between the section containers */
     background-clip: content-box;
     
 }
@@ -131,12 +127,18 @@ a {
 }
 
 .sectionContainer h1 {
-    width: 15%;
-    margin: 2%;
+    min-width: 20%;
+    /* min-width:20%; */
+
+    margin: 5%;
+    padding: 2%;
     border-right: 5px solid hotpink;
-    text-align: center;
-    padding: 5%;
-    white-space:pre-wrap;
+    text-align: right;
+    
+    /* background-color: gray; */
+    font-size: 150%;
+
+    /* overflow-wrap: break-word; */
 
 }
 
@@ -156,77 +158,65 @@ a {
 .main article ul li {
     /* makes list items be next to each other */
     display: inline-flex;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-right:10%;
-    
-    
-}
-/* 
-.sideHeaders {
-    box-sizing: border-box;
-    width: 20%;
-    height: 100%;
-    background-color: hotpink;
-    font-size: x-large;
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: left;
-
-}
-
-.sideHeaders section {
-    margin: 5px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-} */
-
-/* .websiteBody {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+    
+    
+}
+
 
 .imageContainer {
+    /* centers text on top of absolute position image */
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .imageContainer h2 {
     background-color: hotpink;
     position: absolute;
-    top: 85%;
-    left: 75%;
+    top: 45%;
+    left: 5%;
+    white-space: nowrap;
+    font-size: 4vh;
 }
 
 .imageContainer img {
      height: 100%;
      width: 100%;
      padding: 5%;
+     
+     
 }
 
 .smallerImageContainer {
+    /* sets flex to make boxes fit side to side. */
     display: flex;
+    /* currently not doing anything */
     position: relative;
 }
 
+/* currently not doing anything */
 .smallerImageContainer img {
     height: 100%;
     width: 100%;
+
+    
     object-fit: cover;
-    /* float:left; */
     justify-content: space-between;
-    /* padding: 5%; */
 }
 
- 
+ /* background color and position are inherited from image container settings */
+ /* this overwrites textbox location on the image so
+  it's higher than the image container set height. */
 .smallerImageContainer  h2 {
-    background-color: hotpink;
-    position: absolute;
-    top: 50%;
-    left: 30%;
+    top: 15%;
+    left: 5%;
+    font-size: 3vh;
 } 
 
+/* Makes it so nav bar words and contact me info is not cut off at the whitespace */
 .doNotWrap {
     white-space: nowrap;
 }
