@@ -121,8 +121,7 @@ a {
 
 .sectionContainer {
     display: flex;
-    background-color: aqua;
-    /* background-color: black; */
+    background-color: black;
     padding:20%;
     background-clip: content-box;
     
@@ -130,7 +129,6 @@ a {
 
 .sectionContainerWork {
     display: flexblock;
-    background-color: aquamarine;
     border: 100px;
 }
 
@@ -139,7 +137,8 @@ a {
     margin: 2%;
     border-right: 5px solid hotpink;
     text-align: center;
-    padding: 5%
+    padding: 5%;
+    white-space: pre-wrap;
 
 }
 
@@ -229,3 +228,7 @@ a {
     top: 50%;
     left: 30%;
 } 
+
+.doNotWrap {
+    white-space: nowrap;
+}
