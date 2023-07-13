@@ -70,7 +70,7 @@ a {
      /* position:absolute; */
      height: 600px;
      width: auto;
-     background-image: url(/Images/comp_sci_bigger\ \(1\).jpg);
+     background-image: url(./Images/backgroundImage.jpg);
      background-size:cover;
      background-position: center;
      z-index: 1;
@@ -83,7 +83,7 @@ a {
         transform: translate(-50%, -50%);
         width: 200px;
         height:200px;
-        background-image: url(/Images/183277941_4078727712184963_5549505821854141151_n.jpg);
+        background-image: url(./Images/183277941_4078727712184963_5549505821854141151_n.jpg);
         background-size: cover;
         z-index: 2;
     }
@@ -94,7 +94,7 @@ a {
     .backgroundImage {
         height: 600px;
         width:auto;
-        background-image: url(/Images/183277941_4078727712184963_5549505821854141151_n.jpg);
+        background-image: url(./Images/183277941_4078727712184963_5549505821854141151_n.jpg);
         background-size: cover;
         background-position: center;
        }
@@ -121,15 +121,16 @@ a {
 
 .sectionContainer {
     display: flex;
-    background-color: black;
+    background-color: aqua;
+    /* background-color: black; */
     padding:20%;
     background-clip: content-box;
     
 }
 
 .sectionContainerWork {
-    display:flexblock;
-    /* background-color: aquamarine; */
+    display: flexblock;
+    background-color: aquamarine;
     border: 100px;
 }
 
