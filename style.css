@@ -157,12 +157,11 @@ a {
 
 .main article ul li {
     /* makes list items be next to each other */
-    display: inline-flex;
+    display: flex;
     padding-top: 15px;
     padding-right:10%;
     justify-content: space-between;
     align-items: center;
-    
     
 }
 
@@ -170,6 +169,7 @@ a {
 .imageContainer {
     /* centers text on top of absolute position image */
     position: relative;
+    font-size: 100%;
     /* display: inline-block; */
 }
 
@@ -179,7 +179,6 @@ a {
     top: 45%;
     left: 5%;
     white-space: nowrap;
-    font-size: 4vh;
 }
 
 .imageContainer img {
@@ -195,6 +194,8 @@ a {
     display: flex;
     /* currently not doing anything */
     position: relative;
+
+    font-size: 70%;
 }
 
 /* currently not doing anything */
@@ -213,7 +214,6 @@ a {
 .smallerImageContainer  h2 {
     top: 15%;
     left: 5%;
-    font-size: 3vh;
 } 
 
 /* Makes it so nav bar words and contact me info is not cut off at the whitespace */
