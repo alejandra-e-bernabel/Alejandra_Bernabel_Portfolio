@@ -28,7 +28,7 @@ input, select, option, optgroup, textarea, button, pre, code {
     font-family: inherit;
 }
 
-/* Removes defailut bullet points from list*/
+/* Removes default bullet points from list*/
 ol, ul {
     list-style: none;
 }
