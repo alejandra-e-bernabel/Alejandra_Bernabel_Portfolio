@@ -66,14 +66,11 @@ a {
         position: relative;
     }
 
-    /* background image needs fixing -- my own face keeps getting cut off when screen is smaller */
-
-
     .backgroundImage {
      /* position:absolute; */
      height: 600px;
      width: auto;
-     background-image: url(/Images/comp_sci_bigger.jpg);
+     background-image: url(/Images/comp_sci_bigger\ \(1\).jpg);
      background-size:cover;
      background-position: center;
      z-index: 1;
