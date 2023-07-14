@@ -56,20 +56,19 @@ a {
 }
 
 .backgroundContainer {
-        position: relative;
-    }
+    position: relative;
+}
 
-    .backgroundImage {
-     /* position:absolute; */
+.backgroundImage {
      height: 600px;
      width: auto;
      background-image: url(./Images/comp_sci_bigger\ \(1\).jpg);
      background-size:cover;
      background-position: center;
      z-index: 1;
-    }
+}
 
-    .myImage {
+.myImage {
         position: absolute;
         top: 80%;
         left:90%;
@@ -79,31 +78,15 @@ a {
         background-image: url(./Images/183277941_4078727712184963_5549505821854141151_n.jpg);
         background-size: cover;
         z-index: 2;
-    }
+}
  
-/* 
-@media screen and (max-width:399px) {
-    .backgroundImage {
-        height: 600px;
-        width:auto;
-        background-image: url(./Images/183277941_4078727712184963_5549505821854141151_n.jpg);
-        background-size: cover;
-        background-position: center;
-       }
-} */
-
-
 .main {
-    box-sizing: border-box;
     height: 100%;
     width: 100%;
     display: inline-block;
-
-    
 }
 
 .main article {
-    /* background-color: black; */
     color: white;
     padding-left: 0px;
     padding-right: 0px;
@@ -128,18 +111,13 @@ a {
 
 .sectionContainer h1 {
     min-width: 20%;
-    /* min-width:20%; */
 
     margin: 5%;
     padding: 2%;
     border-right: 5px solid hotpink;
     text-align: right;
     
-    /* background-color: gray; */
     font-size: 150%;
-
-    /* overflow-wrap: break-word; */
-
 }
 
 .sectionContainer p {
@@ -172,15 +150,12 @@ a {
     /* centers text on top of absolute position image */
     position: relative;
     font-size: 110%;
-    /* display: inline-block; */
 }
 
 .imageContainer h2 {
-    /* background-color: hotpink; */
     position: absolute;
     top: 45%;
     left: 5%;
-    /* white-space: nowrap; */
     
 }
 
